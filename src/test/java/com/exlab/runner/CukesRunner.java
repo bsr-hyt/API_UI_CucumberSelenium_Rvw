@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/exlab/stepDefs",
-        dryRun = true,
-        tags = "@wip"
+        dryRun = false,
+        tags = "@apiuı"
 )
 public class CukesRunner {
 
